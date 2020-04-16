@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="mailList">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="mail" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+<!--    <xs:element name="IdResponse" type="EmailList"/>-->
+<!--        <xs:annotation>-->
+<!--            <xs:documentation>-->
+<!--                ArrayList with emails-->
+<!--            </xs:documentation>-->
+<!--        </xs:annotation>-->
+<!--        <xs:simpleType name="EmailList">-->
+<!--            <xs:list itemType="xs:string"/>-->
+<!--        </xs:simpleType>-->
+<!--    </xs:element>-->
+<!--    <xs:element name="IdResponse" type="xs:string"/>-->
+
+</xs:schema>
